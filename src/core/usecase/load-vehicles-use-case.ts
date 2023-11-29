@@ -6,18 +6,17 @@ import { AppInventoryState } from '../contexts/AppInventoryState';
 export class LoadVehiclesUseCase {
   constructor(private vehicleHttpService: VehicleHttpService) {}
 
-  handle(): Signal<Vehicle[]> {
+  handle(usesCache = true): Signal<Vehicle[]> {
     const appState = AppInventoryState.instance();
 
-    const vehiclesAppState = appState.vehicles as WritableSignal<Vehicle[]>;
-
-    if (vehiclesAppState().length > 0) {
-      return vehiclesAppState;
+    if (appState.vehicles.length > 0 && usesCache) {
+      return appState.vehicles;
     }
+
     this.vehicleHttpService.getVehiclesData().subscribe((vehicles) => {
-      vehiclesAppState.set(vehicles);
+      appState.vehicles = vehicles;
     });
 
-    return vehiclesAppState;
+    return appState.vehicles;
   }
 }

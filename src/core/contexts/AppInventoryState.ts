@@ -14,10 +14,21 @@ export class AppInventoryState {
   }
 
   private _vehicles: WritableSignal<Vehicle[]> = signal<Vehicle[]>([]);
+  private _selectedVehicle: WritableSignal<Vehicle> = signal<Vehicle>(
+    {} as Vehicle
+  );
+
   get vehicles(): WritableSignal<Vehicle[]> {
     return this._vehicles;
   }
-  set vehicles(vehicles: WritableSignal<Vehicle[]>) {
-    this._vehicles = vehicles;
+  set vehicles(vehicles: Vehicle[]) {
+    this._vehicles.set(vehicles);
+  }
+
+  get selectedVehicle(): WritableSignal<Vehicle> {
+    return this._selectedVehicle;
+  }
+  set selectedVehicle(selectedVehicle: Vehicle) {
+    this._selectedVehicle.set(selectedVehicle);
   }
 }
