@@ -2,9 +2,12 @@
 <div>
   <div class="row">
     <div class="col-2"><b>Code</b></div>
-    <div class="col-2"><b>Model</b></div>
+    <div class="col-2"><b>Plate</b></div>
     <div class="col-2"><b>Brand</b></div>
-    <div class="col-2"><b>Year</b></div>
+    <div class="col-2"><b>Model</b></div>
+    <div class="col-2"><b>Color</b></div>
+    <div class="col-4"><b>Description</b></div>
+    <div class="col-1"><b>Model_Year</b></div>
   </div>
 
   <div *ngFor="let item of vehicles()" class="row">
@@ -12,13 +15,20 @@
       {{ item.modelCode }}
     </div>
     <div class="col-2">
+      {{ item.licensePlate }}
+    </div>
+    <div class="col-2">
       {{ item.model }}
+    </div>
+    <div class="col-2">
+      {{ item.color }}
     </div>
     <div class="col-2">
       {{ item.brand }}
     </div>
-    <div class="col-2">
-      {{ item.year }}
+    <div class="col-4">
+      {{ item.description }}
     </div>
+    <div class="col-1 txtr">{{ item.modelYear }}</div>
   </div>
 </div>

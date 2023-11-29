@@ -7,8 +7,10 @@
       "brand": "Toyota",
       "model": "Rav4",
       "year": 2022,
+      "modelYear": 2023,
       "color": "Silver",
       "price": 30000.0,
+      "purchasePrice": 25000.0,
       "availability": true,
       "quantity": 5,
       "odometer": 15000,
@@ -16,7 +18,8 @@
       "segment": "SUV",
       "options": ["Leather Seats", "Sunroof", "Advanced Safety Package"],
       "licensePlate": "ABC-1234",
-      "chassis": "JTMYFREV1JD012345"
+      "chassis": "JTMYFREV1JD012345",
+      "purchaseDate": "2023-01-15 00:00:00"
     },
     {
       "uniqueCode": "DEF456",
@@ -24,8 +27,10 @@
       "brand": "Honda",
       "model": "Accord",
       "year": 2023,
+      "modelYear": 2023,
       "color": "Black",
       "price": 28000.0,
+      "purchasePrice": 23400.0,
       "availability": true,
       "quantity": 3,
       "odometer": 12000,
@@ -33,7 +38,8 @@
       "segment": "Sedan",
       "options": ["Navigation System", "Heated Seats", "Premium Audio"],
       "licensePlate": "DEF-5678",
-      "chassis": "1HGCR2F3XDA123456"
+      "chassis": "1HGCR2F3XDA123456",
+      "purchaseDate": "2023-02-16 00:00:00"
     },
     {
       "uniqueCode": "GHI789",
@@ -41,8 +47,10 @@
       "brand": "Ford",
       "model": "Mustang",
       "year": 2022,
+      "modelYear": 2023,
       "color": "Red",
       "price": 45000.0,
+      "purchasePrice": 32000.0,
       "availability": false,
       "quantity": 0,
       "odometer": 5000,
@@ -50,7 +58,8 @@
       "segment": "Sports",
       "options": ["Performance Package", "Convertible Top", "Premium Wheels"],
       "licensePlate": "GHI-8901",
-      "chassis": "1FA6P8TH6J5100000"
+      "chassis": "1FA6P8TH6J5100000",
+      "purchaseDate": "2022-03-17 00:00:00"
     },
     {
       "uniqueCode": "JKL012",
@@ -58,8 +67,10 @@
       "brand": "Chevrolet",
       "model": "Traverse",
       "year": 2022,
+      "modelYear": 2023,
       "color": "Blue",
       "price": 35000.0,
+      "purchasePrice": 33000.0,
       "availability": true,
       "quantity": 2,
       "odometer": 20000,
@@ -71,7 +82,8 @@
         "Towing Package"
       ],
       "licensePlate": "JKL-3456",
-      "chassis": "1GNKRGKD6HJ567890"
+      "chassis": "1GNKRGKD6HJ567890",
+      "purchaseDate": "2022-04-18 00:00:00"
     },
     {
       "uniqueCode": "MNO345",
@@ -79,8 +91,10 @@
       "brand": "Toyota",
       "model": "Prius",
       "year": 2023,
+      "modelYear": 2023,
       "color": "Green",
       "price": 25000.0,
+      "purchasePrice": 21020.0,
       "availability": true,
       "quantity": 4,
       "odometer": 8000,
@@ -92,7 +106,8 @@
         "Wireless Charging"
       ],
       "licensePlate": "MNO-6789",
-      "chassis": "JTDKBRFU0J3600000"
+      "chassis": "JTDKBRFU0J3600000",
+      "purchaseDate": "2023-05-19 00:00:00"
     },
     {
       "uniqueCode": "PQR678",
@@ -100,8 +115,10 @@
       "brand": "Ford",
       "model": "F-150",
       "year": 2022,
+      "modelYear": 2022,
       "color": "White",
       "price": 40000.0,
+      "purchasePrice": 37000.0,
       "availability": true,
       "quantity": 3,
       "odometer": 30000,
@@ -109,7 +126,8 @@
       "segment": "Truck",
       "options": ["Towing Package", "Off-Road Package", "Bed Liner"],
       "licensePlate": "PQR-9012",
-      "chassis": "1FTEW1CP5NKF12345"
+      "chassis": "1FTEW1CP5NKF12345",
+      "purchaseDate": "2022-06-20 00:00:00"
     },
     {
       "uniqueCode": "STU901",
@@ -117,8 +135,10 @@
       "brand": "Honda",
       "model": "Civic",
       "year": 2023,
+      "modelYear": 2024,
       "color": "Gray",
       "price": 22000.0,
+      "purchasePrice": 20000.0,
       "availability": true,
       "quantity": 6,
       "odometer": 10000,
@@ -126,7 +146,8 @@
       "segment": "Compact",
       "options": ["Apple CarPlay", "Android Auto", "Lane Keeping Assist"],
       "licensePlate": "STU-3456",
-      "chassis": "2HGFC2F53JH555555"
+      "chassis": "2HGFC2F53JH555555",
+      "purchaseDate": "2023-03-21 00:00:00"
     },
     {
       "uniqueCode": "VWX234",
@@ -134,8 +155,10 @@
       "brand": "Mercedes-Benz",
       "model": "E-Class",
       "year": 2022,
+      "modelYear": 2022,
       "color": "Black",
       "price": 60000.0,
+      "purchasePrice": 50000.0,
       "availability": true,
       "quantity": 2,
       "odometer": 15000,
@@ -147,7 +170,8 @@
         "Driver Assistance Package"
       ],
       "licensePlate": "VWX-5678",
-      "chassis": "WDDZF4JB7JA123456"
+      "chassis": "WDDZF4JB7JA123456",
+      "purchaseDate": "2022-08-22 00:00:00"
     },
     {
       "uniqueCode": "YZA567",
@@ -155,8 +179,10 @@
       "brand": "Nissan",
       "model": "Rogue",
       "year": 2023,
+      "modelYear": 2024,
       "color": "Brown",
       "price": 32000.0,
+      "purchasePrice": 28000.0,
       "availability": true,
       "quantity": 4,
       "odometer": 18000,
@@ -168,7 +194,8 @@
         "Dual-Zone Climate Control"
       ],
       "licensePlate": "YZA-8901",
-      "chassis": "5N1AT3BB6LC456789"
+      "chassis": "5N1AT3BB6LC456789",
+      "purchaseDate": "2023-01-23 00:00:00"
     },
     {
       "uniqueCode": "BCD890",
@@ -176,8 +203,10 @@
       "brand": "Chevrolet",
       "model": "Malibu",
       "year": 2022,
+      "modelYear": 2022,
       "color": "Silver",
       "price": 26000.0,
+      "purchasePrice": 23000.0,
       "availability": true,
       "quantity": 5,
       "odometer": 14000,
@@ -189,7 +218,8 @@
         "Adaptive Cruise Control"
       ],
       "licensePlate": "BCD-2345",
-      "chassis": "1G1ZD5ST9JF123456"
+      "chassis": "1G1ZD5ST9JF123456",
+      "purchaseDate": "2022-02-14 00:00:00"
     },
     {
       "uniqueCode": "EFG123",
@@ -197,8 +227,10 @@
       "brand": "Dodge",
       "model": "Challenger",
       "year": 2022,
+      "modelYear": 2023,
       "color": "Blue",
       "price": 48000.0,
+      "purchasePrice": 41000.0,
       "availability": false,
       "quantity": 0,
       "odometer": 6000,
@@ -210,7 +242,8 @@
         "Upgraded Exhaust"
       ],
       "licensePlate": "EFG-3456",
-      "chassis": "2C3CDZAG2JH789012"
+      "chassis": "2C3CDZAG2JH789012",
+      "purchaseDate": "2022-03-15 00:00:00"
     },
     {
       "uniqueCode": "HIJ456",
@@ -218,8 +251,10 @@
       "brand": "Toyota",
       "model": "Camry Hybrid",
       "year": 2023,
+      "modelYear": 2023,
       "color": "White",
       "price": 28000.0,
+      "purchasePrice": 22000.0,
       "availability": true,
       "quantity": 3,
       "odometer": 9000,
@@ -231,16 +266,19 @@
         "Wireless Charging"
       ],
       "licensePlate": "HIJ-6789",
-      "chassis": "4T1F31AK0NU123456"
+      "chassis": "4T1F31AK0NU123456",
+      "purchaseDate": "2023-04-16 00:00:00"
     },
     {
       "uniqueCode": "KLM789",
       "modelCode": "SUV013",
       "brand": "Ford",
       "model": "Escape",
-      "year": 2023,
+      "year": 2022,
+      "modelYear": 2023,
       "color": "Red",
       "price": 32000.0,
+      "purchasePrice": 31000.0,
       "availability": true,
       "quantity": 4,
       "odometer": 12000,
@@ -252,7 +290,8 @@
         "Hands-Free Liftgate"
       ],
       "licensePlate": "KLM-9012",
-      "chassis": "1FMCU0F60LUA12345"
+      "chassis": "1FMCU0F60LUA12345",
+      "purchaseDate": "2023-05-17 00:00:00"
     },
     {
       "uniqueCode": "NOP012",
@@ -260,8 +299,10 @@
       "brand": "Chevrolet",
       "model": "Silverado",
       "year": 2022,
+      "modelYear": 2023,
       "color": "Silver",
       "price": 42000.0,
+      "purchasePrice": 38000.0,
       "availability": true,
       "quantity": 2,
       "odometer": 25000,
@@ -273,7 +314,8 @@
         "Multiflex Tailgate"
       ],
       "licensePlate": "NOP-3456",
-      "chassis": "3GCUYDED9NG456789"
+      "chassis": "3GCUYDED9NG456789",
+      "purchaseDate": "2022-06-18 00:00:00"
     },
     {
       "uniqueCode": "QRS345",
@@ -281,8 +323,10 @@
       "brand": "Nissan",
       "model": "Altima",
       "year": 2022,
+      "modelYear": 2023,
       "color": "Black",
       "price": 26000.0,
+      "purchasePrice": 25000.0,
       "availability": true,
       "quantity": 3,
       "odometer": 18000,
@@ -294,7 +338,8 @@
         "Dual-Zone Climate Control"
       ],
       "licensePlate": "QRS-5678",
-      "chassis": "1N4BL4DW2NC123456"
+      "chassis": "1N4BL4DW2NC123456",
+      "purchaseDate": "2022-07-19 00:00:00"
     },
     {
       "uniqueCode": "TUV678",
@@ -302,8 +347,10 @@
       "brand": "Mazda",
       "model": "CX-5",
       "year": 2023,
+      "modelYear": 2024,
       "color": "Gray",
       "price": 33000.0,
+      "purchasePrice": 32000.0,
       "availability": true,
       "quantity": 5,
       "odometer": 15000,
@@ -315,7 +362,8 @@
         "Power Liftgate"
       ],
       "licensePlate": "TUV-9012",
-      "chassis": "JM3KFADM7L1111111"
+      "chassis": "JM3KFADM7L1111111",
+      "purchaseDate": "2023-08-10 00:00:00"
     },
     {
       "uniqueCode": "WXY901",
@@ -323,8 +371,10 @@
       "brand": "Volkswagen",
       "model": "Golf",
       "year": 2023,
+      "modelYear": 2023,
       "color": "Blue",
       "price": 23000.0,
+      "purchasePrice": 20000.0,
       "availability": true,
       "quantity": 4,
       "odometer": 11000,
@@ -336,7 +386,8 @@
         "Android Auto"
       ],
       "licensePlate": "WXY-2345",
-      "chassis": "3VWG57AU5KM123456"
+      "chassis": "3VWG57AU5KM123456",
+      "purchaseDate": "2023-09-11 00:00:00"
     },
     {
       "uniqueCode": "YZA567",
@@ -344,8 +395,10 @@
       "brand": "Subaru",
       "model": "Outback",
       "year": 2022,
+      "modelYear": 2023,
       "color": "Green",
       "price": 31000.0,
+      "purchasePrice": 29000.0,
       "availability": true,
       "quantity": 3,
       "odometer": 20000,
@@ -357,7 +410,8 @@
         "Power Rear Gate"
       ],
       "licensePlate": "YZA-3456",
-      "chassis": "4S4BTANCXN3100000"
+      "chassis": "4S4BTANCXN3100000",
+      "purchaseDate": "2022-10-12 00:00:00"
     },
     {
       "uniqueCode": "BCD890",
@@ -365,8 +419,10 @@
       "brand": "Hyundai",
       "model": "Sonata",
       "year": 2022,
+      "modelYear": 2023,
       "color": "Red",
       "price": 25000.0,
+      "purchasePrice": 23000.0,
       "availability": true,
       "quantity": 5,
       "odometer": 13000,
@@ -378,7 +434,8 @@
         "Blind Spot Detection"
       ],
       "licensePlate": "BCD-4567",
-      "chassis": "5NPEF4JA7NH123456"
+      "chassis": "5NPEF4JA7NH123456",
+      "purchaseDate": "2022-11-13 00:00:00"
     },
     {
       "uniqueCode": "EFG123",
@@ -386,8 +443,10 @@
       "brand": "Chevrolet",
       "model": "Camaro",
       "year": 2023,
+      "modelYear": 2024,
       "color": "Yellow",
       "price": 47000.0,
+      "purchasePrice": 45000.0,
       "availability": true,
       "quantity": 2,
       "odometer": 7000,
@@ -399,7 +458,8 @@
         "Performance Data Recorder"
       ],
       "licensePlate": "EFG-5678",
-      "chassis": "1G1FB1RS9K0100000"
+      "chassis": "1G1FB1RS9K0100000",
+      "purchaseDate": "2023-02-14 00:00:00"
     },
     {
       "uniqueCode": "FGH456",
@@ -407,8 +467,10 @@
       "brand": "Jeep",
       "model": "Grand Cherokee",
       "year": 2022,
+      "modelYear": 2022,
       "color": "Black",
       "price": 40000.0,
+      "purchasePrice": 37000.0,
       "availability": true,
       "quantity": 3,
       "odometer": 18000,
@@ -420,7 +482,8 @@
         "Quadra-Trac II 4x4 System"
       ],
       "licensePlate": "FGH-1234",
-      "chassis": "1C4RJFAG6NC567890"
+      "chassis": "1C4RJFAG6NC567890",
+      "purchaseDate": "2022-03-15 00:00:00"
     },
     {
       "uniqueCode": "IJK789",
@@ -428,8 +491,10 @@
       "brand": "Kia",
       "model": "Optima",
       "year": 2023,
+      "modelYear": 2023,
       "color": "White",
       "price": 27000.0,
+      "purchasePrice": 23000.0,
       "availability": true,
       "quantity": 4,
       "odometer": 15000,
@@ -437,7 +502,8 @@
       "segment": "Sedan",
       "options": ["Smart Cruise Control", "Apple CarPlay", "Android Auto"],
       "licensePlate": "IJK-5678",
-      "chassis": "5XXGT4L31MG123456"
+      "chassis": "5XXGT4L31MG123456",
+      "purchaseDate": "2023-04-16 00:00:00"
     },
     {
       "uniqueCode": "LMN012",
@@ -445,8 +511,10 @@
       "brand": "Ford",
       "model": "Focus",
       "year": 2022,
+      "modelYear": 2022,
       "color": "Blue",
       "price": 23000.0,
+      "purchasePrice": 20000.0,
       "availability": true,
       "quantity": 2,
       "odometer": 12000,
@@ -458,7 +526,8 @@
         "Wireless Charging Pad"
       ],
       "licensePlate": "LMN-9012",
-      "chassis": "1FADP3FE1JL123456"
+      "chassis": "1FADP3FE1JL123456",
+      "purchaseDate": "2022-05-17 00:00:00"
     },
     {
       "uniqueCode": "OPQ345",
@@ -466,8 +535,10 @@
       "brand": "Ram",
       "model": "1500",
       "year": 2022,
+      "modelYear": 2022,
       "color": "Silver",
       "price": 42000.0,
+      "purchasePrice": 36000.0,
       "availability": true,
       "quantity": 3,
       "odometer": 22000,
@@ -479,7 +550,8 @@
         "Tow Hitch"
       ],
       "licensePlate": "OPQ-3456",
-      "chassis": "1C6SRFJT3NN123456"
+      "chassis": "1C6SRFJT3NN123456",
+      "purchaseDate": "2022-06-18 00:00:00"
     },
     {
       "uniqueCode": "RST678",
@@ -487,8 +559,10 @@
       "brand": "Subaru",
       "model": "Forester",
       "year": 2023,
+      "modelYear": 2023,
       "color": "Green",
       "price": 34000.0,
+      "purchasePrice": 29000.0,
       "availability": true,
       "quantity": 5,
       "odometer": 16000,
@@ -500,7 +574,8 @@
         "Panoramic Sunroof"
       ],
       "licensePlate": "RST-9012",
-      "chassis": "JF2SKAUC4NH123456"
+      "chassis": "JF2SKAUC4NH123456",
+      "purchaseDate": "2023-07-19 00:00:00"
     }
   ]
 }

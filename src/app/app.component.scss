@@ -1,15 +1,42 @@
-.row{
+.row {
   width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    .col-2{
-        padding-right: 15px;
-        padding-left: 15px;
-        flex: 1 0 0%;
-        width: 30%;
-    }
+  display: flex;
+  padding: 0.8svh;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #777;
+  vertical-align: middle;
+  .col-1 {
+    gap: 0.8svw;
+    flex: 1 0 0%;
+  }
+  .col-2 {
+    gap: 0.8svw;
+    flex: 2 0 0%;
+  }
+  .col-3 {
+    gap: 0.8svw;
+    flex: 3 0 0%;
+  }
+  .col-4 {
+    gap: 0.8svw;
+    flex: 4 0 0%;
+  }
+
+  .txtc {
+    text-align: center;
+  }
+
+  .txtl {
+    text-align: left;
+  }
+
+  .txtr {
+    text-align: right;
+  }
+
+  .txtj {
+    text-align: justify;
+  }
 }

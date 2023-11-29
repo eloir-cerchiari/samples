@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --text-color: #333;
+  --bg-color: #fff;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 1svh solid #ccc;
+  padding: 1svw;
+  font-size: 0.8em;
+  text-align: left;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #eee;
+    --bg-color: #333;
+  }
+}
