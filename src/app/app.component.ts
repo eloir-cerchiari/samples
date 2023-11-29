@@ -23,5 +23,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.vehicles = this.loadVehiclesUseCase.handle();
+    const vecState = AppInventoryState.instance().vehicles;
   }
 }

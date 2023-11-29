@@ -1,4 +1,4 @@
-import { Signal, signal } from '@angular/core';
+import { Signal, WritableSignal, signal } from '@angular/core';
 import { Vehicle } from '../model/vehicle';
 import { VehicleHttpService } from '../adapters/vehicle-http.service';
 import { AppInventoryState } from '../contexts/AppInventoryState';
@@ -9,10 +9,15 @@ export class LoadVehiclesUseCase {
   handle(): Signal<Vehicle[]> {
     const appState = AppInventoryState.instance();
 
+    const vehiclesAppState = appState.vehicles as WritableSignal<Vehicle[]>;
+
+    if (vehiclesAppState().length > 0) {
+      return vehiclesAppState;
+    }
     this.vehicleHttpService.getVehiclesData().subscribe((vehicles) => {
-      appState.vehicles.set(vehicles);
+      vehiclesAppState.set(vehicles);
     });
 
-    return appState.vehicles;
+    return vehiclesAppState;
   }
 }
