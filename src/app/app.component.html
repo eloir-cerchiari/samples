@@ -1,5 +1,12 @@
 <router-outlet></router-outlet>
 <div>
+  <div class="row">
+    <div class="col-2"><b>Code</b></div>
+    <div class="col-2"><b>Model</b></div>
+    <div class="col-2"><b>Brand</b></div>
+    <div class="col-2"><b>Year</b></div>
+  </div>
+
   <div *ngFor="let item of vehicles()" class="row">
     <div class="col-2">
       {{ item.modelCode }}
